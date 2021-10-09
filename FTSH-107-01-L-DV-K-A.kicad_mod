@@ -1,5 +1,5 @@
 (footprint "FTSH-107-01-L-DV-K-A" (version 20210925) (generator pcbnew) (layer "F.Cu")
-  (tedit 6161EE14)
+  (tedit 6161EFBC)
   (descr "FTSH-107-XX-YYY-DV-K-A")
   (tags "Connector")
   (attr through_hole)
@@ -42,7 +42,7 @@
   (pad "12" smd rect locked (at 2.54 -2.035) (size 0.74 2.79) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e93f9ff7-af0c-4599-af01-181d2dbc6a2a))
   (pad "13" smd rect locked (at 3.81 2.035) (size 0.74 2.79) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a8b88e4d-4a43-47d4-85a7-3e78272e38ab))
   (pad "14" smd rect locked (at 3.81 -2.035) (size 0.74 2.79) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5204d33f-259b-410c-ad52-fc68acf4d1e9))
-  (model "C:\\Users\\alex\\Documents\\Library Loader\\SamacSys_Parts.3dshapes\\FTSH-107-01-L-DV-K-A.stp"
+  (model "${KIPRJMOD}/leptunKicadLib.pretty/FTSH-107-01-L-DV-K-A.stp"
     (offset (xyz -4.45 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
