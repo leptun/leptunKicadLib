@@ -1,0 +1,171 @@
+(footprint "61200621621"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WR-BHD 2.54mm Male Box Header, 6 Pins")
+	(property "Reference" "REF**"
+		(at 0.635 -6.185 0)
+		(layer "F.SilkS")
+		(uuid "55c2e2a4-c38e-4990-bda1-84711f270c58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "61200621621"
+		(at 4.445 5.715 0)
+		(layer "F.Fab")
+		(uuid "289286c1-4acc-41f6-90d8-f27e1498600c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e1d0573-0b29-4344-b0ae-b77e7269a03f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3538f209-f37e-4ab5-8365-6e22e6cb233d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df9721d9-8542-4292-9633-259703b21d96")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 7.64 4.55) (xy 7.64 -4.55) (xy -7.64 -4.55) (xy -7.64 4.55)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "26f8e3c2-b7a7-45d6-b633-27f521bc3961")
+	)
+	(fp_poly
+		(pts
+			(xy -7.89 4.8) (xy 7.89 4.8) (xy 7.89 -4.8) (xy -7.89 -4.8)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6c8754c3-4524-4d93-99ce-782660664474")
+	)
+	(fp_text user "1"
+		(at -4.445 1.905 0)
+		(layer "F.SilkS")
+		(uuid "300e63cb-a917-40f6-8a12-1d80d5a83409")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "1"
+		(at -4.445 1.905 0)
+		(layer "F.Fab")
+		(uuid "24969e4d-c9b0-413f-9686-a618252f2838")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 1.27)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de2e5de1-dc0a-43fa-98d3-2ae81a9616f7")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 -1.27)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "20a6e1d6-16c8-44d1-8432-9798099056b7")
+	)
+	(pad "3" thru_hole circle
+		(at 0 1.27)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "481c364b-228d-4296-9253-6c910c12946e")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -1.27)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fd702ec0-0ffc-4977-b90b-30dce97ae46d")
+	)
+	(pad "5" thru_hole circle
+		(at 2.54 1.27)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "383fb2d9-024f-4241-af87-da8634c0ff86")
+	)
+	(pad "6" thru_hole circle
+		(at 2.54 -1.27)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0722eb32-ea79-47f8-9fea-f2b1020a8b00")
+	)
+	(model "${KIPRJMOD}/leptunKicadLib.pretty/61200621621.stp"
+		(offset
+			(xyz 0 0 4.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
